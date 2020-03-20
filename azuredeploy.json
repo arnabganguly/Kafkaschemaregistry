@@ -38,7 +38,7 @@
         "metadata": {
           "description": "The base URI where artifacts required by this template are located."
         },
-        "defaultValue": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/101-hdinsight-kafka-with-edge-schema-registry/"
+        "defaultValue": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/101-hdinsight-kafka-with-edge-schema-registry"
       },
       "_artifactsLocationSasToken": {
         "type": "securestring",
@@ -154,7 +154,7 @@
                 "name": "zookeepernode",
                 "targetInstanceCount": 3,
                 "hardwareProfile": {
-                  "vmSize": "Standard_A3"
+                  "vmSize": "Standard_A4_v2"
                 },
                 "osProfile": {
                   "linuxOperatingSystemProfile": {
