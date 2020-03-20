@@ -24,7 +24,7 @@ ExecStart=/usr/bin/schema-registry-start /etc/schema-registry/schema-registry.pr
 [Install]
 WantedBy=multi-user.target
 " > /etc/systemd/system/schema-registry.service
-
+ 
 echo "
 listeners=http://0.0.0.0:8081
 kafkastore.connection.url=zk0-ohkl-h:2181,zk1-ohkl-h:2181,zk2-ohkl-h:2181
