@@ -1,5 +1,5 @@
 # Kafkaschemaregistry
-Confluent Schema Registry is a mechanism to create 
+Confluent Schema Registry is a mechanism to store and retrieve Avro schemas. Some of the features 
 
 
 Lab depicting how one can set up the Confluent Schema Registry on HDInsight Kafka 
@@ -9,7 +9,7 @@ Lab depicting how one can set up the Confluent Schema Registry on HDInsight Kafk
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDYzMjk3MTYsLTQ0MDU4Mzk2NywtMT
+eyJoaXN0b3J5IjpbLTE4NTI0NzA4ODksLTQ0MDU4Mzk2NywtMT
 I2Njc3MDUyNSwxNDkxNTM2NjEsNjU1ODMxOTQ5LDg1MjMwMTQ1
 NSwyNzA1Mzk2NjldfQ==
 -->
