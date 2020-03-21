@@ -100,7 +100,7 @@
           "clusterDefinition": {
             "kind": "KAFKA",
               "componentVersion": {
-            "Kafka": "2.1.0"
+            "Kafka": "2.1"
           },
             "configurations": {
               "gateway": {
