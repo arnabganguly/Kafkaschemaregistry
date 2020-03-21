@@ -38,7 +38,7 @@
         "metadata": {
           "description": "The base URI where artifacts required by this template are located."
         },
-        "defaultValue": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/101-hdinsight-kafka-with-edge-schema-registry"
+        "defaultValue": "https://raw.githubusercontent.com/arnabganguly/Kafkaschemaregistry/blob/master/"
       },
       "_artifactsLocationSasToken": {
         "type": "securestring",
@@ -59,7 +59,7 @@
         "metadata": {
           "description": "A script action you can run on the empty node to install or configure additional software."
         },
-        "defaultValue": "NodeSetup.sh"
+        "defaultValue": "schemaregistry.sh"
       },
       "location": {
         "type": "string",
