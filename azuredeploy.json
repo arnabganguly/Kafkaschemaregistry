@@ -95,10 +95,13 @@
           "[concat('Microsoft.Storage/storageAccounts/',variables('clStgAcnt'))]"
         ],
         "properties": {
-          "clusterVersion": "3.6",
+          "clusterVersion": "4.0",
           "osType": "Linux",
           "clusterDefinition": {
             "kind": "KAFKA",
+              "componentVersion": {
+            "Kafka": "2.1.0"
+          },
             "configurations": {
               "gateway": {
                 "restAuthCredential.isEnabled": true,
