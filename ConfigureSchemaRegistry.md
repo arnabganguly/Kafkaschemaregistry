@@ -105,9 +105,12 @@ Content-Length: 9
 Server: Jetty(9.2.24.v20180105)
 ```
 - List all subjects
-- 
+```
+curl -X GET -i -H "Content-Type: application/vnd.schemaregistry.v1+json" \
+    http://localhost:8081/subjects
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Njg1ODUzMTgsLTE1MDM2MDI0MSw0Nj
-M1NDIzNTgsMTQ0NDE0Nzc5NywxNzI5Nzc3Mzg3LC0xNzMwMTQ5
-ODQ1LC0xNjk2MzExNjY3XX0=
+eyJoaXN0b3J5IjpbOTM1MzU4MDAwLC0xNTAzNjAyNDEsNDYzNT
+QyMzU4LDE0NDQxNDc3OTcsMTcyOTc3NzM4NywtMTczMDE0OTg0
+NSwtMTY5NjMxMTY2N119
 -->
