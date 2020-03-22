@@ -118,11 +118,9 @@ Server: Jetty(9.2.24.v20180105)
 
 ["Kafka-value","Kafka-key"]
 ```
-
-
-
+- Try some other advanced commands listed here . 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTk5NzUwMzIsLTE1MDM2MDI0MSw0Nj
+eyJoaXN0b3J5IjpbLTEzNzcyMjUzNjUsLTE1MDM2MDI0MSw0Nj
 M1NDIzNTgsMTQ0NDE0Nzc5NywxNzI5Nzc3Mzg3LC0xNzMwMTQ5
 ODQ1LC0xNjk2MzExNjY3XX0=
 -->
