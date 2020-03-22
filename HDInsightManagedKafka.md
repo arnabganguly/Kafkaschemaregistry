@@ -23,16 +23,16 @@ In this section we would deploy a HDInsight Managed Kafka  cluster with an Edge 
     - **SSH User Name**: Create an SSH username for the cluster
     - **SSH Password**: Create an SSH password for the username chosen above
 
-- Check he box titled "*I agree to the terms and conditions stated above*" and click **Purchase**. 
+- Check he box titled "*I agree to the terms and conditions stated above*" and click on **Purchase**. 
     
 ![HDInsight Kafka Schema Registry](https://github.com/arnabganguly/Kafkaschemaregistry/blob/master/images/Pic2.png)
 
-- Wait till the deployment completes and you get the *Your Deployment is Complete* message. 
+- Wait till the deployment completes and you get the *Your Deployment is Complete* message and then click on  **Go to resource**.
 
 ![HDInsight Kafka Schema Registry](https://github.com/arnabganguly/Kafkaschemaregistry/blob/master/images/Pic3.png)
 
-- 
+- On the 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDYwNDk1NTMsLTM3NjY0MTAxOSwtMT
+eyJoaXN0b3J5IjpbLTE4MDg1OTc2MzQsLTM3NjY0MTAxOSwtMT
 k0NjU5ODAwMiwxMjM5NjI1MDM1LDE2NzQ0MTU0NjNdfQ==
 -->
