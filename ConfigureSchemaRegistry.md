@@ -62,8 +62,20 @@ cd /bin
  ```
 
 
-- Schema Registry Starts and starts listening f
+- Schema Registry Starts and starts listening for requests
+```
+...
+...
+[2020-03-22 13:24:49,089] INFO Adding listener: http://0.0.0.0:8081 (io.confluent.rest.Application:190)
+[2020-03-22 13:24:49,154] INFO jetty-9.2.24.v20180105 (org.eclipse.jetty.server.Server:327)
+[2020-03-22 13:24:49,753] INFO HV000001: Hibernate Validator 5.1.3.Final (org.hibernate.validator.internal.util.Version:27)
+[2020-03-22 13:24:49,902] INFO Started o.e.j.s.ServletContextHandler@40844aab{/,null,AVAILABLE} (org.eclipse.jetty.server.handler.ContextHandler:744)
+[2020-03-22 13:24:49,914] INFO Started NetworkTrafficServerConnector@33fe57a9{HTTP/1.1}{0.0.0.0:8081} (org.eclipse.jetty.server.NetworkTrafficServerConnector:266)
+[2020-03-22 13:24:49,915] INFO Started @2780ms (org.eclipse.jetty.server.Server:379)
+[2020-03-22 13:24:49,915] INFO Server started, listening for requests... (io.confluent.kafka.schemaregistry.rest.SchemaRegistryMain:45)
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzk2NDg0OTEsMTcyOTc3NzM4NywtMT
-czMDE0OTg0NSwtMTY5NjMxMTY2N119
+eyJoaXN0b3J5IjpbMTA4NDgxOTg3NSwxNzI5Nzc3Mzg3LC0xNz
+MwMTQ5ODQ1LC0xNjk2MzExNjY3XX0=
 -->
