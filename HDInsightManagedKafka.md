@@ -5,7 +5,8 @@ In this section we would deploy a  HDInsight Managed Kafka  cluster with an Edge
  - Click on the Deploy to Azure Button to start the deployment process
 
 [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Farnabganguly%2FKafkaschemaregistry%2Fmaster%2Fazuredeploy.json
-)
+) 
+</a>
 <a  href="http://armviz.io/#/load=[https://raw.githubusercontent.com/arnabganguly/Kafkaschemaregistry/master/azuredeploy.json](https://raw.githubusercontent.com/arnabganguly/Kafkaschemaregistry/master/azuredeploy.json)"  target="_blank">
 
 <img src="http://armviz.io/visualizebutton.png"/>
@@ -14,7 +15,8 @@ In this section we would deploy a  HDInsight Managed Kafka  cluster with an Edge
 
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTIxMTEwODEsMTIzOTYyNTAzNSwxNj
-c0NDE1NDYzXX0=
+eyJoaXN0b3J5IjpbLTQ5NzExOTE5NSwxMjM5NjI1MDM1LDE2Nz
+Q0MTU0NjNdfQ==
 -->
