@@ -10,9 +10,10 @@ In this section we would deploy a  HDInsight Managed Kafka  cluster with an Edge
   <img src="http://armviz.io/visualizebutton.png"/>
 </a>
 
+
  - List item
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDY1OTgwMDIsMTIzOTYyNTAzNSwxNj
-c0NDE1NDYzXX0=
+eyJoaXN0b3J5IjpbLTEzMDI3MTk4MTIsLTE5NDY1OTgwMDIsMT
+IzOTYyNTAzNSwxNjc0NDE1NDYzXX0=
 -->
