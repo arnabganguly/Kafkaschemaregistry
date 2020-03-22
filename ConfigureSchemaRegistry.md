@@ -78,7 +78,7 @@ cd /bin
 - With the Schema Registry running in one SSH session , launch another SSH window and try out some basic commands to ensure that Schema Registry is working as expected.
 
 
- - Register a new version of a schema under the subject "Kafka-key"
+ - Register a new version of a schema under the subject "Kafka-key" and note the output 
 ```
 $ curl -X POST -i -H "Content-Type: application/vnd.schemaregistry.v1+json" \
     --data '{"schema": "{\"type\": \"string\"}"}'
@@ -91,7 +91,7 @@ Content-Length: 9
 Server: Jetty(9.2.24.v20180105)
 ```
       
- - Register a new version of a schema under the subject "Kafka-value"
+ - Register a new version of a schema under the subject "Kafka-value" and note the output
 
 ```
 curl -X POST -i -H "Content-Type: application/vnd.schemaregistry.v1+json" \
@@ -104,13 +104,25 @@ Content-Type: application/vnd.schemaregistry.v1+json
 Content-Length: 9
 Server: Jetty(9.2.24.v20180105)
 ```
-- List all subjects
+- List all subjects and check the output 
 ```
 curl -X GET -i -H "Content-Type: application/vnd.schemaregistry.v1+json" \
     http://localhost:8081/subjects
 ```
+```
+HTTP/1.1 200 OK
+Date: Sun, 22 Mar 2020 16:34:39 GMT
+Content-Type: application/vnd.schemaregistry.v1+json
+Content-Length: 27
+Server: Jetty(9.2.24.v20180105)
+
+["Kafka-value","Kafka-key"]
+```
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM1MzU4MDAwLC0xNTAzNjAyNDEsNDYzNT
-QyMzU4LDE0NDQxNDc3OTcsMTcyOTc3NzM4NywtMTczMDE0OTg0
-NSwtMTY5NjMxMTY2N119
+eyJoaXN0b3J5IjpbLTE3OTk5NzUwMzIsLTE1MDM2MDI0MSw0Nj
+M1NDIzNTgsMTQ0NDE0Nzc5NywxNzI5Nzc3Mzg3LC0xNzMwMTQ5
+ODQ1LC0xNjk2MzExNjY3XX0=
 -->
