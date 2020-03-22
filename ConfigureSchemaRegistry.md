@@ -1,7 +1,8 @@
+## Configure the Confluent Schema Registry
 
+The confluent schema registry is located at  '''
 
-
-> Written with [StackEdit](https://stackedit.io/).
+Create the 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbNTA1NTc1MDI3XX0=
 -->
