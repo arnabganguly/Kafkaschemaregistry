@@ -15,9 +15,8 @@ In this section we would deploy a  HDInsight Managed Kafka  cluster with an Edge
 
 
  - On the Custom deployment template populate the fields as described below
-
-
+    -  Resouce G
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI4NzQ3NjMsLTE5NDY1OTgwMDIsMTIzOT
-YyNTAzNSwxNjc0NDE1NDYzXX0=
+eyJoaXN0b3J5IjpbLTQ4MzU4NzE0MSwtMTk0NjU5ODAwMiwxMj
+M5NjI1MDM1LDE2NzQ0MTU0NjNdfQ==
 -->
