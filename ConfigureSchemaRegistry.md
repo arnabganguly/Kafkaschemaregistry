@@ -17,11 +17,14 @@ export clusterName=$(curl -u admin:$password -sS -G "http://headnodehost:8080/ap
 ```
 - Extract the Kafka Zookeeper hosts 
 
-
-
 ```
 export KAFKAZKHOSTS=$(curl -sS -u admin:$password -G https://$clusterName.azurehdinsight.net/api/v1/clusters/$clusterName/services/ZOOKEEPER/components/ZOOKEEPER_SERVER | jq -r '["\(.host_components[].HostRoles.host_name):2181"] | join(",")' | cut -d',' -f1,2);
 ```
+- Validate the content of the ```KAFKAZKHOSTS``` variable
+```
+echo  $KAFKAZKHOSTS
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwODI1OTI1MywtMTY5NjMxMTY2N119
+eyJoaXN0b3J5IjpbMTM2MjIyNTA0NSwtMTY5NjMxMTY2N119
 -->
