@@ -52,7 +52,7 @@ debug=true
 
 - Save and exit the properties file using ``` :wq``` command
 
-- Use the below commands to start the Schema Registry and point it to use the updated Schema Registry properties file
+- Use the below commands to **Start the Schema Registry** and point it to use the updated Schema Registry properties file
 ```
 cd /bin
 ``` 
@@ -61,7 +61,9 @@ cd /bin
  $ sudo schema-registry-start /etc/schema-registry/schema-registry.properties
  ```
 
+
+- Schema Registry Starts and starts listening f
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMDE4NDI0MCwxNzI5Nzc3Mzg3LC0xNz
-MwMTQ5ODQ1LC0xNjk2MzExNjY3XX0=
+eyJoaXN0b3J5IjpbLTIwNzk2NDg0OTEsMTcyOTc3NzM4NywtMT
+czMDE0OTg0NSwtMTY5NjMxMTY2N119
 -->
