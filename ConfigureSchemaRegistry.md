@@ -9,7 +9,8 @@ The Schema Register needs to know the Zookeeper service to be able to interact w
 ```export password='PASSWORD' ```
 
 - Extract the correctly cased cluster name
-``` 
+
+``` export clusterName=$(curl -u admin:$password -sS -G "http://headnodehost:8080/api/v1/clusters" | jq -r '.items[].Clusters.cluster_name')```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NjQ0MzI1XX0=
+eyJoaXN0b3J5IjpbLTE2OTYzMTE2NjddfQ==
 -->
