@@ -9,13 +9,13 @@ In an HDInsight Managed Kafka cluster the Schema Registry is typically deployed 
 
 Below is a representative architecture of how the Schema Registry is deployed on an HDInsight cluster. Note that Schema Registry natively exposes a REST API for operations on it.  Producers and consumers can interact with the Schema Registry from within the VNet or using the [Kafka REST Proxy](https://docs.microsoft.com/en-us/azure/hdinsight/kafka/rest-proxy). 
 
-![Create Azure Resource Group](https://github.com/arnabganguly/Kafkaschemaregistry/blob/master/images/Pic1.png)
+![HDInsight Kafka Schema Registry](https://github.com/arnabganguly/Kafkaschemaregistry/blob/master/images/Pic1.png)
 
 Click [**Next**](https://github.com/arnabganguly/Kafkaschemaregistry/blob/master/HDInsightManagedKafka.md) to start the Lab 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NjYyOTI1NSwtMTg1NTU4MTQ2MywxNj
+eyJoaXN0b3J5IjpbMTI2MjkwNzU2MywtMTg1NTU4MTQ2MywxNj
 M1NzEzNzU1LC05NzA2MDkxOTUsMjAyMzI5ODA3MywtNDQwNTgz
 OTY3LC0xMjY2NzcwNTI1LDE0OTE1MzY2MSw2NTU4MzE5NDksOD
 UyMzAxNDU1LDI3MDUzOTY2OV19
