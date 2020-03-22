@@ -41,13 +41,13 @@ kafkastore.connection.url=zk0-ohkl-h:2181,zk1-ohkl-h:2181,zk2-ohkl-h:2181
 kafkastore.topic=_schemas
 debug=false
 ```
-- Replace the kafastore.connection.url variable with the Zookeeper string that you noted earlier. The properties files now looks like this.  
+- Replace the kafastore.connection.url variable with the Zookeeper string that you noted earlier.  Also replace the debug variable to true . If set to true true, API requests that fail will include extra debugging information, including stack traces. The properties files now looks like this.  
 
 ```
 listeners=http://0.0.0.0:8081
 kafkastore.connection.url=zk1-ag4kaf.q2hwzr1xkxjuvobkaagmjjkhta.gx.internal.cloudapp.net:2181,zk2-ag4kaf.q2hwzr1xkxjuvobkaagmjjkhta.gx.internal.cloudapp.net:2181
 kafkastore.topic=_schemas
-debug=false
+debug=true
 ```
 
 - Save and exit the properties file using ``` :wq``` command
@@ -62,6 +62,6 @@ cd /bin
  ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyOTc3NzM4NywtMTczMDE0OTg0NSwtMT
-Y5NjMxMTY2N119
+eyJoaXN0b3J5IjpbMTUwMDE4NDI0MCwxNzI5Nzc3Mzg3LC0xNz
+MwMTQ5ODQ1LC0xNjk2MzExNjY3XX0=
 -->
