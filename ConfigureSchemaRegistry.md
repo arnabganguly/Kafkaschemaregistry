@@ -118,9 +118,12 @@ Server: Jetty(9.2.24.v20180105)
 
 ["Kafka-value","Kafka-key"]
 ```
-- Try some other [advanced commands listed here](https://docs.confluent.io/1.0/schema-registry/docs/intro.html#quickstart) . 
+- You may want to try some other [advanced commands listed here](https://docs.confluent.io/1.0/schema-registry/docs/intro.html#quickstart).
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTU3NzI2MzYsLTE1MDM2MDI0MSw0Nj
-M1NDIzNTgsMTQ0NDE0Nzc5NywxNzI5Nzc3Mzg3LC0xNzMwMTQ5
-ODQ1LC0xNjk2MzExNjY3XX0=
+eyJoaXN0b3J5IjpbLTE4MTA5OTU1ODEsLTE5OTU3NzI2MzYsLT
+E1MDM2MDI0MSw0NjM1NDIzNTgsMTQ0NDE0Nzc5NywxNzI5Nzc3
+Mzg3LC0xNzMwMTQ5ODQ1LC0xNjk2MzExNjY3XX0=
 -->
