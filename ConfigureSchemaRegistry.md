@@ -82,25 +82,32 @@ cd /bin
 ```
 $ curl -X POST -i -H "Content-Type: application/vnd.schemaregistry.v1+json" \
     --data '{"schema": "{\"type\": \"string\"}"}'
-   ```
-   ```
+```
+```
    HTTP/1.1 200 OK
 Date: Sun, 22 Mar 2020 16:33:04 GMT
 Content-Type: application/vnd.schemaregistry.v1+json
 Content-Length: 9
 Server: Jetty(9.2.24.v20180105)
-
-   ```
+```
       
  - Register a new version of a schema under the subject "Kafka-value"
 
 ```
 curl -X POST -i -H "Content-Type: application/vnd.schemaregistry.v1+json" \
     --data '{"schema": "{\"type\": \"string\"}"}' \
-     http://localhost:8081/subjects/Kafka-value/versions  
+```
+```
+HTTP/1.1 200 OK
+Date: Sun, 22 Mar 2020 16:34:18 GMT
+Content-Type: application/vnd.schemaregistry.v1+json
+Content-Length: 9
+Server: Jetty(9.2.24.v20180105)
+```
+- List all subjects
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE1ODQzOTkyLC0xNTAzNjAyNDEsNDYzNT
-QyMzU4LDE0NDQxNDc3OTcsMTcyOTc3NzM4NywtMTczMDE0OTg0
-NSwtMTY5NjMxMTY2N119
+eyJoaXN0b3J5IjpbLTE3Njg1ODUzMTgsLTE1MDM2MDI0MSw0Nj
+M1NDIzNTgsMTQ0NDE0Nzc5NywxNzI5Nzc3Mzg3LC0xNzMwMTQ5
+ODQ1LC0xNjk2MzExNjY3XX0=
 -->
