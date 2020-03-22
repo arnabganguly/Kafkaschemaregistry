@@ -50,8 +50,11 @@ kafkastore.topic=_schemas
 debug=false
 ```
 
+- Save and exit the properties file using ``` :wq``` command
 
+- 
+ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNzEwODY4OCwtMTczMDE0OTg0NSwtMT
-Y5NjMxMTY2N119
+eyJoaXN0b3J5IjpbLTExMTk2MjI4OTcsLTE3MzAxNDk4NDUsLT
+E2OTYzMTE2NjddfQ==
 -->
