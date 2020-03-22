@@ -1,5 +1,5 @@
 # Kafkaschemaregistry
-Kafka Schema Registry is an mechanism to store and retrieve Avro schemas. Its is an OSS project by Confluent under the confluent community license and has been around for many years. The Schema Registry serves the below purposes
+Kafka Schema Registry provides serializers that plug into Kafka clients that handle  message schema storage and retrieval for Kafka messages that are sent in the Avro format. Its is an OSS project by Confluent under the confluent community license and has been around for many years. The Schema Registry serves the below purposes
  
  - Store and retrieve schemas for producers and consumers
  - Enforce backward/forward /full compatibility on Topics
@@ -14,7 +14,7 @@ Lab depicting how one can set up the Confluent Schema Registry on HDInsight Kafk
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMzI5ODA3MywtNDQwNTgzOTY3LC0xMj
-Y2NzcwNTI1LDE0OTE1MzY2MSw2NTU4MzE5NDksODUyMzAxNDU1
-LDI3MDUzOTY2OV19
+eyJoaXN0b3J5IjpbLTI2NTg1Nzk4NiwyMDIzMjk4MDczLC00ND
+A1ODM5NjcsLTEyNjY3NzA1MjUsMTQ5MTUzNjYxLDY1NTgzMTk0
+OSw4NTIzMDE0NTUsMjcwNTM5NjY5XX0=
 -->
