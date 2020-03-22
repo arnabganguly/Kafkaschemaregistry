@@ -19,9 +19,10 @@ In this section we would deploy a  HDInsight Managed Kafka  cluster with an Edge
     - **Location** : Automatically populated based on the Resource Group location 
     - **Cluster Name** : Enter a cluster name( or one is created by default)
     - **Cluster Login Name**: Create a administrator name for the Kafka Cluster( example : admin) 
-    - Cluster Lo
+    - **Cluster Login Password**: Create a administrator login password for the username chosen above
     - **SSH User Name**: Create an SSH username for the cluster
+    - SSH Password: Create an SSH password for the username chosen above
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNTg5NDM5MCwtMTk0NjU5ODAwMiwxMj
+eyJoaXN0b3J5IjpbMTMxODI3MjczMywtMTk0NjU5ODAwMiwxMj
 M5NjI1MDM1LDE2NzQ0MTU0NjNdfQ==
 -->
