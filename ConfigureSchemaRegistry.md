@@ -6,17 +6,22 @@ The Schema Register needs to know the Zookeeper service to be able to interact w
 
  - Set up password variable. Replace `PASSWORD` with the cluster login password, then enter the command
 
-```export password='PASSWORD' ```
+```
+export password='PASSWORD' 
+```
 
 - Extract the correctly cased cluster name
 
-``` export clusterName=$(curl -u admin:$password -sS -G "http://headnodehost:8080/api/v1/clusters" | jq -r '.items[].Clusters.cluster_name')```
-
+``` 
+export clusterName=$(curl -u admin:$password -sS -G "http://headnodehost:8080/api/v1/clusters" | jq -r '.items[].Clusters.cluster_name')
+```
 - Extract the Kafka Zookeeper hosts 
 
-```export KAFKAZKHOSTS=$(curl -sS -u admin:$password -G https://$clusterName.azurehdinsight.net/api/v1/clusters/$clusterName/services/ZOOKEEPER/components/ZOOKEEPER_SERVER | jq -r '["\(.host_components[].HostRoles.host_name):2181"] | join(",")' | cut -d',' -f1,2);```
 
 
+```
+export KAFKAZKHOSTS=$(curl -sS -u admin:$password -G https://$clusterName.azurehdinsight.net/api/v1/clusters/$clusterName/services/ZOOKEEPER/components/ZOOKEEPER_SERVER | jq -r '["\(.host_components[].HostRoles.host_name):2181"] | join(",")' | cut -d',' -f1,2);
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQxODEyOTc3LC0xNjk2MzExNjY3XX0=
+eyJoaXN0b3J5IjpbLTQwODI1OTI1MywtMTY5NjMxMTY2N119
 -->
