@@ -11,13 +11,15 @@ Below is a representative architecture of how the Schema Registry is deployed on
 
 ![Create Azure Resource Group](https://github.com/arnabganguly/Kafkaschemaregistry/blob/master/images/Pic1.png)
 
+Click Next to start the Lab 
+
 [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Farnabganguly%2FKafkaschemaregistry%2Fmaster%2Fazuredeploy.json
 )
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU5MjU0NTcxLC0xODU1NTgxNDYzLDE2Mz
-U3MTM3NTUsLTk3MDYwOTE5NSwyMDIzMjk4MDczLC00NDA1ODM5
-NjcsLTEyNjY3NzA1MjUsMTQ5MTUzNjYxLDY1NTgzMTk0OSw4NT
-IzMDE0NTUsMjcwNTM5NjY5XX0=
+eyJoaXN0b3J5IjpbMTI4Njg4OTAxNSwtMTg1NTU4MTQ2MywxNj
+M1NzEzNzU1LC05NzA2MDkxOTUsMjAyMzI5ODA3MywtNDQwNTgz
+OTY3LC0xMjY2NzcwNTI1LDE0OTE1MzY2MSw2NTU4MzE5NDksOD
+UyMzAxNDU1LDI3MDUzOTY2OV19
 -->
