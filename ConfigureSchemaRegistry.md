@@ -41,7 +41,7 @@ kafkastore.connection.url=zk0-ohkl-h:2181,zk1-ohkl-h:2181,zk2-ohkl-h:2181
 kafkastore.topic=_schemas
 debug=false
 ```
-- Replace the kafastore.connection.url variable with the Zookeeper string that you noted earlier 
+- Replace the kafastore.connection.url variable with the Zookeeper string that you noted earlier. The properties files now looks like this.  
 
 ```
 listeners=http://0.0.0.0:8081
@@ -54,7 +54,10 @@ debug=false
 
 - Use the below command to start the Schema Registry and point it to use the updated Schema Registry properties file
  
+ ```
+ $ bin/schema-registry-start etc/schema-registry/schema-registry.properties
+ ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyOTY1MDc2LC0xNzMwMTQ5ODQ1LC0xNj
-k2MzExNjY3XX0=
+eyJoaXN0b3J5IjpbMTY2OTI0ODU0NSwtMTczMDE0OTg0NSwtMT
+Y5NjMxMTY2N119
 -->
