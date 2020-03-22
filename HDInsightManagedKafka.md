@@ -23,8 +23,8 @@ In this section we would deploy a  HDInsight Managed Kafka  cluster with an Edge
     - **SSH User Name**: Create an SSH username for the cluster
     - **SSH Password**: Create an SSH password for the username chosen above
 
-
+![HDInsight Kafka Schema Registry](https://github.com/arnabganguly/Kafkaschemaregistry/blob/master/images/Pic2.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2ODc1MDUzNywtMTk0NjU5ODAwMiwxMj
+eyJoaXN0b3J5IjpbLTM3NjY0MTAxOSwtMTk0NjU5ODAwMiwxMj
 M5NjI1MDM1LDE2NzQ0MTU0NjNdfQ==
 -->
