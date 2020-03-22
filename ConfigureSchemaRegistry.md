@@ -52,9 +52,9 @@ debug=false
 
 - Save and exit the properties file using ``` :wq``` command
 
-- 
+- Use the below command to start the Schema Registry and point it to use the updated Schema Registry properties file
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTk2MjI4OTcsLTE3MzAxNDk4NDUsLT
-E2OTYzMTE2NjddfQ==
+eyJoaXN0b3J5IjpbMTIyOTY1MDc2LC0xNzMwMTQ5ODQ1LC0xNj
+k2MzExNjY3XX0=
 -->
