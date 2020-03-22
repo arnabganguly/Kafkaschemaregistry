@@ -1,4 +1,4 @@
-# Kafkaschemaregistry
+# HDInsight Kafka Schema Registry
 Kafka Schema Registry provides serializers that plug into Kafka clients that handle  message schema storage and retrieval for Kafka messages that are sent in the Avro format. Its is an OSS project by Confluent under the confluent community license and has been around for many years. The Schema Registry can additionally serves the below purposes
  
  - Store and retrieve schemas for producers and consumers
@@ -14,7 +14,7 @@ Below is a representative architecture of how the Schema Registry is deployed on
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MDYwOTE5NSwyMDIzMjk4MDczLC00ND
-A1ODM5NjcsLTEyNjY3NzA1MjUsMTQ5MTUzNjYxLDY1NTgzMTk0
-OSw4NTIzMDE0NTUsMjcwNTM5NjY5XX0=
+eyJoaXN0b3J5IjpbMTYzNTcxMzc1NSwtOTcwNjA5MTk1LDIwMj
+MyOTgwNzMsLTQ0MDU4Mzk2NywtMTI2Njc3MDUyNSwxNDkxNTM2
+NjEsNjU1ODMxOTQ5LDg1MjMwMTQ1NSwyNzA1Mzk2NjldfQ==
 -->
