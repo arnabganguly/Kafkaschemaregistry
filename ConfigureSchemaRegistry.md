@@ -82,9 +82,16 @@ cd /bin
 $ curl -X POST -i -H "Content-Type: application/vnd.schemaregistry.v1+json" \
     --data '{"schema": "{\"type\": \"string\"}"}'
    ```
-          
+   ```
+   HTTP/1.1 200 OK
+Date: Sun, 22 Mar 2020 16:33:04 GMT
+Content-Type: application/vnd.schemaregistry.v1+json
+Content-Length: 9
+Server: Jetty(9.2.24.v20180105)
+   ```
+      
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTQxMTQ5NjYsNDYzNTQyMzU4LDE0ND
-QxNDc3OTcsMTcyOTc3NzM4NywtMTczMDE0OTg0NSwtMTY5NjMx
-MTY2N119
+eyJoaXN0b3J5IjpbMTgwNzI0MDM4MCw0NjM1NDIzNTgsMTQ0ND
+E0Nzc5NywxNzI5Nzc3Mzg3LC0xNzMwMTQ5ODQ1LC0xNjk2MzEx
+NjY3XX0=
 -->
