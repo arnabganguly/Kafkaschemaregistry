@@ -24,8 +24,16 @@ export KAFKAZKHOSTS=$(curl -sS -u admin:$password -G https://$clusterName.azureh
 ```
 echo  $KAFKAZKHOSTS
 ```
-- Make a note of the values in the 
+- Zookeeper values appear in the below format . Make a note of these values as they will be used later
+```
+zk1-ag4kaf.q2hwzr1xkxjuvobkaagmjjkhta.gx.internal.cloudapp.net:2181,zk2-ag4kaf.q2hwzr1xkxjuvobkaagmjjkhta.gx.internal.cloudapp.net:2181
+```
+
+- Open the Schema Registry properties files in edit mode
+
+``` sudo vi /etc/schema-registry/schema-registry.properties
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzAxNDk4NDUsLTE2OTYzMTE2NjddfQ
-==
+eyJoaXN0b3J5IjpbLTE3NDgxNTUyODksLTE3MzAxNDk4NDUsLT
+E2OTYzMTE2NjddfQ==
 -->
