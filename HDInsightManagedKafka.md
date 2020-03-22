@@ -12,7 +12,9 @@ In this section we would deploy a  HDInsight Managed Kafka  cluster with an Edge
 </a>
 
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzcxMTc3NjUsMTIzOTYyNTAzNSwxNj
+eyJoaXN0b3J5IjpbLTEzMTIxMTEwODEsMTIzOTYyNTAzNSwxNj
 c0NDE1NDYzXX0=
 -->
