@@ -24,7 +24,8 @@ export KAFKAZKHOSTS=$(curl -sS -u admin:$password -G https://$clusterName.azureh
 ```
 echo  $KAFKAZKHOSTS
 ```
-
+- Make a note of the values in the 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MjIyNTA0NSwtMTY5NjMxMTY2N119
+eyJoaXN0b3J5IjpbLTE3MzAxNDk4NDUsLTE2OTYzMTE2NjddfQ
+==
 -->
