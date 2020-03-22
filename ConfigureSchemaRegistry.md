@@ -31,9 +31,18 @@ zk1-ag4kaf.q2hwzr1xkxjuvobkaagmjjkhta.gx.internal.cloudapp.net:2181,zk2-ag4kaf.q
 
 - Open the Schema Registry properties files in edit mode
 
-``` sudo vi /etc/schema-registry/schema-registry.properties
+``` 
+sudo vi /etc/schema-registry/schema-registry.properties
 ```
+- By default the file would contain the below parameters 
+```
+listeners=http://0.0.0.0:8081
+kafkastore.connection.url=zk0-ohkl-h:2181,zk1-ohkl-h:2181,zk2-ohkl-h:2181
+kafkastore.topic=_schemas
+debug=false
+```
+- Replace the kafastore.connection.url par 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDgxNTUyODksLTE3MzAxNDk4NDUsLT
+eyJoaXN0b3J5IjpbLTEzNDA1NzUzOTksLTE3MzAxNDk4NDUsLT
 E2OTYzMTE2NjddfQ==
 -->
