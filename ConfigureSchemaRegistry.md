@@ -62,7 +62,7 @@ cd /bin
  ```
 
 
-- Schema Registry Starts and starts listening for requests
+- Schema Registry Starts and starts listening for requests. 
 ```
 ...
 ...
@@ -75,7 +75,8 @@ cd /bin
 [2020-03-22 13:24:49,915] INFO Server started, listening for requests... (io.confluent.kafka.schemaregistry.rest.SchemaRegistryMain:45)
 ```
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NDgxOTg3NSwxNzI5Nzc3Mzg3LC0xNz
-MwMTQ5ODQ1LC0xNjk2MzExNjY3XX0=
+eyJoaXN0b3J5IjpbLTE3MDk3ODUyNzcsMTcyOTc3NzM4NywtMT
+czMDE0OTg0NSwtMTY5NjMxMTY2N119
 -->
