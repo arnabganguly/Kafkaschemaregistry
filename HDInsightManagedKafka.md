@@ -8,11 +8,11 @@ In this section we would deploy a  HDInsight Managed Kafka  cluster with an Edge
 )
 
 
-<a  href="http://armviz.io/#/?load=https://raw.githubusercontent.com/DarylsCorner/ARM-Templates/master/vm-from-user-image/azuredeploy.json"  target="_blank">
+<a  href="http://armviz.io/#/?load=https://raw.githubusercontent.com/arnabganguly/Kafkaschemaregistry/master/master/azuredeploy.json"  target="_blank">
 
 <img src="http://armviz.io/visualizebutton.png"/>
 
 </a>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MTEyNzQzMywxNjc0NDE1NDYzXX0=
+eyJoaXN0b3J5IjpbNjg1MzAzOTgyLDE2NzQ0MTU0NjNdfQ==
 -->
