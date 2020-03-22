@@ -57,7 +57,8 @@ debug=false
  ```
  $ bin/schema-registry-start etc/schema-registry/schema-registry.properties
  ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2OTI0ODU0NSwtMTczMDE0OTg0NSwtMT
+eyJoaXN0b3J5IjpbLTEzNjMzMTI0OSwtMTczMDE0OTg0NSwtMT
 Y5NjMxMTY2N119
 -->
