@@ -15,6 +15,12 @@ In this section we would deploy a  HDInsight Managed Kafka  cluster with an Edge
 <img src="http://armviz.io/visualizebutton.png"/>
 
 </a>
+
+
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+![](https://...Dark.png)  |  ![](https://...Ocean.png)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDgzMzA5OTgsMTY3NDQxNTQ2M119
+eyJoaXN0b3J5IjpbMTk3NDM5MTQ3NCwxNjc0NDE1NDYzXX0=
 -->
