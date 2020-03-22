@@ -58,10 +58,10 @@ cd /bin
 ``` 
 
  ```
- $ bin/schema-registry-start etc/schema-registry/schema-registry.properties
+ $ sudo schema-registry-start /etc/schema-registry/schema-registry.properties
  ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjc0NzYyNjEsLTE3MzAxNDk4NDUsLT
-E2OTYzMTE2NjddfQ==
+eyJoaXN0b3J5IjpbMTcyOTc3NzM4NywtMTczMDE0OTg0NSwtMT
+Y5NjMxMTY2N119
 -->
