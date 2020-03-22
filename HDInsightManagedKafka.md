@@ -39,9 +39,12 @@ In this section we would deploy an HDInsight Managed Kafka  cluster with an Edge
 ![HDInsight Kafka Schema Registry](https://github.com/arnabganguly/Kafkaschemaregistry/blob/master/images/Pic5.png)
 
 - Using an SSH client of your choice ssh into the edge node using the **sshuser** and **password** that you set in the custom ARM script. 
-- 
+
+- In the next section we would configure the Confluent Kafka Schema Registry that we installed on the edge node.  
+
+Click Next to continue 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMDc5Mzg0NCwtMTk4MTM1OTE5LDEzND
+eyJoaXN0b3J5IjpbMTc0MDIwMTM4MywtMTk4MTM1OTE5LDEzND
 MxMjIyNDQsOTcyMzQ4OTE0LDE3ODQyNDgzMjYsLTEwODE5NDk0
 MzcsLTM3NjY0MTAxOSwtMTk0NjU5ODAwMiwxMjM5NjI1MDM1LD
 E2NzQ0MTU0NjNdfQ==
