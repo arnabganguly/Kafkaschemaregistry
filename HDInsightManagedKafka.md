@@ -31,8 +31,10 @@ In this section we would deploy a HDInsight Managed Kafka  cluster with an Edge 
 
 ![HDInsight Kafka Schema Registry](https://github.com/arnabganguly/Kafkaschemaregistry/blob/master/images/Pic3.png)
 
-- On the 
+- On the Resource group explore the various components created as part of the Deployment . Click on the HDInsight Cluster to open the cluster page. 
+
+![HDInsight Kafka Schema Registry](https://github.com/arnabganguly/Kafkaschemaregistry/blob/master/images/Pic4.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDg1OTc2MzQsLTM3NjY0MTAxOSwtMT
+eyJoaXN0b3J5IjpbLTEwODE5NDk0MzcsLTM3NjY0MTAxOSwtMT
 k0NjU5ODAwMiwxMjM5NjI1MDM1LDE2NzQ0MTU0NjNdfQ==
 -->
