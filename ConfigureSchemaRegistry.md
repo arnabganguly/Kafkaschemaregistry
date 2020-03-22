@@ -41,8 +41,17 @@ kafkastore.connection.url=zk0-ohkl-h:2181,zk1-ohkl-h:2181,zk2-ohkl-h:2181
 kafkastore.topic=_schemas
 debug=false
 ```
-- Replace the kafastore.connection.url par 
+- Replace the kafastore.connection.url variable with the Zookeeper string that you noted earlier 
+
+```
+listeners=http://0.0.0.0:8081
+kafkastore.connection.url=zk1-ag4kaf.q2hwzr1xkxjuvobkaagmjjkhta.gx.internal.cloudapp.net:2181,zk2-ag4kaf.q2hwzr1xkxjuvobkaagmjjkhta.gx.internal.cloudapp.net:2181
+kafkastore.topic=_schemas
+debug=false
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDA1NzUzOTksLTE3MzAxNDk4NDUsLT
-E2OTYzMTE2NjddfQ==
+eyJoaXN0b3J5IjpbMTUyNzEwODY4OCwtMTczMDE0OTg0NSwtMT
+Y5NjMxMTY2N119
 -->
