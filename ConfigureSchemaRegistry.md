@@ -77,7 +77,8 @@ cd /bin
 
 - With the Schema Registry running in one SSH session , launch another SSH window and try out some basic commands to ensure that Schema Registry is working as expected.
 
-   - Register a new version of a schema under the subject "Kafka-key"
+
+ - Register a new version of a schema under the subject "Kafka-key"
 ```
 $ curl -X POST -i -H "Content-Type: application/vnd.schemaregistry.v1+json" \
     --data '{"schema": "{\"type\": \"string\"}"}'
@@ -88,10 +89,15 @@ Date: Sun, 22 Mar 2020 16:33:04 GMT
 Content-Type: application/vnd.schemaregistry.v1+json
 Content-Length: 9
 Server: Jetty(9.2.24.v20180105)
+
    ```
       
+ - Register a new version of a schema under the subject "Kafka-value"
+
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNzI0MDM4MCw0NjM1NDIzNTgsMTQ0ND
+eyJoaXN0b3J5IjpbLTE1MDM2MDI0MSw0NjM1NDIzNTgsMTQ0ND
 E0Nzc5NywxNzI5Nzc3Mzg3LC0xNzMwMTQ5ODQ1LC0xNjk2MzEx
 NjY3XX0=
 -->
