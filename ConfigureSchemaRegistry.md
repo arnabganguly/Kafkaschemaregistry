@@ -95,9 +95,12 @@ Server: Jetty(9.2.24.v20180105)
  - Register a new version of a schema under the subject "Kafka-value"
 
 ```
-
+curl -X POST -i -H "Content-Type: application/vnd.schemaregistry.v1+json" \
+    --data '{"schema": "{\"type\": \"string\"}"}' \
+     http://localhost:8081/subjects/Kafka-value/versions  
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDM2MDI0MSw0NjM1NDIzNTgsMTQ0ND
-E0Nzc5NywxNzI5Nzc3Mzg3LC0xNzMwMTQ5ODQ1LC0xNjk2MzEx
-NjY3XX0=
+eyJoaXN0b3J5IjpbMjE1ODQzOTkyLC0xNTAzNjAyNDEsNDYzNT
+QyMzU4LDE0NDQxNDc3OTcsMTcyOTc3NzM4NywtMTczMDE0OTg0
+NSwtMTY5NjMxMTY2N119
 -->
