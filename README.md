@@ -7,7 +7,7 @@ Kafka Schema Registry provides serializers that plug into Kafka clients that han
 
 In an HDInsight Managed Kafka cluster the Schema Registry is typically deployed on an Edge node to allow compute separation from Head Nodes. 
 
-Below is a representative architecture of how the Schema Registry is deployed on an HDInsight cluster. Note that Schema Registry natively exposes a REST API for operations on it.  Producers and consumers can interact with the Schema Registry from within the VNet or when using the Kafka REST Proxy. 
+Below is a representative architecture of how the Schema Registry is deployed on an HDInsight cluster. Note that Schema Registry natively exposes a REST API for operations on it.  Producers and consumers can interact with the Schema Registry from within the VNet or using the [Kafka REST Proxy](https://docs.microsoft.com/en-us/azure/hdinsight/kafka/rest-proxy). 
 
 ![Create Azure Resource Group](https://github.com/arnabganguly/Kafkaschemaregistry/blob/master/images/Pic1.png)
 
@@ -16,8 +16,8 @@ Below is a representative architecture of how the Schema Registry is deployed on
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDYyOTA1NTIsLTE4NTU1ODE0NjMsMT
-YzNTcxMzc1NSwtOTcwNjA5MTk1LDIwMjMyOTgwNzMsLTQ0MDU4
-Mzk2NywtMTI2Njc3MDUyNSwxNDkxNTM2NjEsNjU1ODMxOTQ5LD
-g1MjMwMTQ1NSwyNzA1Mzk2NjldfQ==
+eyJoaXN0b3J5IjpbNDU5MjU0NTcxLC0xODU1NTgxNDYzLDE2Mz
+U3MTM3NTUsLTk3MDYwOTE5NSwyMDIzMjk4MDczLC00NDA1ODM5
+NjcsLTEyNjY3NzA1MjUsMTQ5MTUzNjYxLDY1NTgzMTk0OSw4NT
+IzMDE0NTUsMjcwNTM5NjY5XX0=
 -->
