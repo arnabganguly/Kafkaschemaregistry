@@ -35,10 +35,10 @@ In this section we would deploy a HDInsight Managed Kafka  cluster with an Edge 
 
 ![HDInsight Kafka Schema Registry](https://github.com/arnabganguly/Kafkaschemaregistry/blob/master/images/Pic4.png)
 
-- On the HDInsight cluster page the 
+- On the HDInsight cluster page click on the SSH+Cluster login blade on the left and get the 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTA2OTE0MDQsMTc4NDI0ODMyNiwtMT
-A4MTk0OTQzNywtMzc2NjQxMDE5LC0xOTQ2NTk4MDAyLDEyMzk2
-MjUwMzUsMTY3NDQxNTQ2M119
+eyJoaXN0b3J5IjpbLTQ1ODgyODE0LDE3ODQyNDgzMjYsLTEwOD
+E5NDk0MzcsLTM3NjY0MTAxOSwtMTk0NjU5ODAwMiwxMjM5NjI1
+MDM1LDE2NzQ0MTU0NjNdfQ==
 -->
