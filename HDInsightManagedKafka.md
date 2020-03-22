@@ -15,8 +15,11 @@ In this section we would deploy a  HDInsight Managed Kafka  cluster with an Edge
 
 
  - On the Custom deployment template populate the fields as described below
-    -  Resouce G
+    -  Resource Group : Choose a previously created resource group from the dropdown
+    - Location : Automatically populated based on the Resource Group location 
+    - Cluster Name : Enter a cluster name( or one is created by default)
+    - Cluster login name: Create a login name for the Kafka Cluster
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MzU4NzE0MSwtMTk0NjU5ODAwMiwxMj
+eyJoaXN0b3J5IjpbMTMwMDM2MjQ0NCwtMTk0NjU5ODAwMiwxMj
 M5NjI1MDM1LDE2NzQ0MTU0NjNdfQ==
 -->
