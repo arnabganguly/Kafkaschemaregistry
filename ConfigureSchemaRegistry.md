@@ -75,7 +75,9 @@ cd /bin
 [2020-03-22 13:24:49,915] INFO Server started, listening for requests... (io.confluent.kafka.schemaregistry.rest.SchemaRegistryMain:45)
 ```
 
+- With the Schema Registry running in one Launch another SSH window
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NDE0Nzc5NywxNzI5Nzc3Mzg3LC0xNz
-MwMTQ5ODQ1LC0xNjk2MzExNjY3XX0=
+eyJoaXN0b3J5IjpbMzk4MzE3MzUxLDE0NDQxNDc3OTcsMTcyOT
+c3NzM4NywtMTczMDE0OTg0NSwtMTY5NjMxMTY2N119
 -->
