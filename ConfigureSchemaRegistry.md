@@ -74,9 +74,8 @@ cd /bin
 [2020-03-22 13:24:49,915] INFO Started @2780ms (org.eclipse.jetty.server.Server:379)
 [2020-03-22 13:24:49,915] INFO Server started, listening for requests... (io.confluent.kafka.schemaregistry.rest.SchemaRegistryMain:45)
 ```
-
-
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDk3ODUyNzcsMTcyOTc3NzM4NywtMT
-czMDE0OTg0NSwtMTY5NjMxMTY2N119
+eyJoaXN0b3J5IjpbLTI5NTczMTUwLDE3Mjk3NzczODcsLTE3Mz
+AxNDk4NDUsLTE2OTYzMTE2NjddfQ==
 -->
