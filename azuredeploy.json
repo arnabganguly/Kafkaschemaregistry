@@ -70,11 +70,46 @@
       }
     },
     "variables": {
+
+        "vNet": {
+            "name": "[concat(parameters('clusterName'),'-vnet')]",
+            "addressSpacePrefix": "10.0.0.0/16",
+            "subnetName": "subnet1",
+            "subnetPrefix": "10.0.0.0/24",
+            "id": "[resourceId('Microsoft.Network/virtualNetworks', concat(parameters('clusterName'),'-vnet'))]",
+            "subnet": "[concat(resourceId('Microsoft.Network/virtualNetworks', concat(parameters('clusterName'),'-vnet')), '/subnets/subnet1')]"
+          },
+
+
+
       "clStgAcnt": "[concat(parameters('clusterName'),'store')]",
       "storageAccountType": "Standard_LRS",
       "applicationName": "schema-registry"
     },
     "resources": [
+        {
+            "type": "Microsoft.Network/virtualNetworks",
+            "name": "[variables('vNet').name]",
+            "apiVersion": "2016-03-30",
+            "location": "[parameters('location')]",
+            "properties": {
+              "addressSpace": {
+                "addressPrefixes": [
+                  "[variables('vNet').addressSpacePrefix]"
+                ]
+              },
+              "subnets": [
+                {
+                  "name": "[variables('vNet').subnetName]",
+                  "properties": {
+                    "addressPrefix": "[variables('vNet').subnetPrefix]"
+                  }
+                }
+              ]
+            }
+          },
+
+
       {
         "type": "Microsoft.Storage/storageAccounts",
         "name": "[variables('clStgAcnt')]",
@@ -99,9 +134,9 @@
           "osType": "Linux",
           "clusterDefinition": {
             "kind": "KAFKA",
-              "componentVersion": {
-            "Kafka": "2.1"
-          },
+            "componentVersion": {
+                "Kafka": "2.1"
+              },
             "configurations": {
               "gateway": {
                 "restAuthCredential.isEnabled": true,
@@ -133,7 +168,11 @@
                     "username": "[parameters('sshUserName')]",
                     "password": "[parameters('sshPassword')]"
                   }
-                }
+                },
+                "virtualNetworkProfile": {
+                    "id": "[variables('vNet').id]",
+                    "subnet": "[variables('vNet').subnet]"
+                  }
               },
               {
                 "name": "workernode",
@@ -208,5 +247,15 @@
           "applicationType": "CustomApplication"
         }
       }
-    ]
+    ],
+    "outputs": {
+        "vnet": {
+          "type": "object",
+          "value": "[reference(resourceId('Microsoft.Network/virtualNetworks',variables('vNet').name))]"
+        },
+        "cluster": {
+          "type": "object",
+          "value": "[reference(resourceId('Microsoft.HDInsight/clusters',parameters('clusterName')))]"
+        }
+      }
 }
