@@ -56,7 +56,9 @@ Value
 2 TAB {"cust_id":3535353, "year":2011, "expenses":[761.35, 92.18, 14.41]}
 3 TAB {"cust_id":7979797, "year":2011, "expenses":[4489.00]}
 ```
+![HDInsight Kafka Schema Registry](https://github.com/arnabganguly/Kafkaschemaregistry/blob/master/images/Pic7.png)
 - Try entering random non schema data into the console producer to see how the producer does now allow any data that does not conform to predefined Avro schema. 
+
 
 - In a different screen start the Kafka Avro Console Consumer
 
@@ -71,8 +73,8 @@ sudo /usr/bin/kafka-avro-console-consumer --bootstrap-server $KAFKABROKERS --top
 {"cust_id":7979797,"year":2011,"expenses":[4489.0]}
 {"cust_id":3535353,"year":2011,"expenses":[761.35,92.18,14.41]}
 ```
-
+![HDInsight Kafka Schema Registry](https://github.com/arnabganguly/Kafkaschemaregistry/blob/master/images/Pic8.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDE1OTEyOTEsNzE4NDUzNjg1LDYwNz
-U2NTkzMF19
+eyJoaXN0b3J5IjpbMTg3ODEyMTM5Niw3MTg0NTM2ODUsNjA3NT
+Y1OTMwXX0=
 -->
