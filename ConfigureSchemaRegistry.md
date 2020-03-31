@@ -120,11 +120,11 @@ Server: Jetty(9.2.24.v20180105)
 ```
 - You may want to try some other [advanced commands listed here](https://docs.confluent.io/1.0/schema-registry/docs/intro.html#quickstart).
 
-- In the next section we will 
+- In the next section we will  read data from standard input and write it to a **Kafka** topic in an **avro** format. This **console** uses the **Avro** converter with the Schema Registry in order to properly write the **Avro** data schema.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMwNTEzNjU0LC0xODEwOTk1NTgxLC0xOT
-k1NzcyNjM2LC0xNTAzNjAyNDEsNDYzNTQyMzU4LDE0NDQxNDc3
-OTcsMTcyOTc3NzM4NywtMTczMDE0OTg0NSwtMTY5NjMxMTY2N1
-19
+eyJoaXN0b3J5IjpbLTQxMTQxMTQ3OSwtMTgxMDk5NTU4MSwtMT
+k5NTc3MjYzNiwtMTUwMzYwMjQxLDQ2MzU0MjM1OCwxNDQ0MTQ3
+Nzk3LDE3Mjk3NzczODcsLTE3MzAxNDk4NDUsLTE2OTYzMTE2Nj
+ddfQ==
 -->
