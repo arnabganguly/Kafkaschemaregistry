@@ -120,10 +120,11 @@ Server: Jetty(9.2.24.v20180105)
 ```
 - You may want to try some other [advanced commands listed here](https://docs.confluent.io/1.0/schema-registry/docs/intro.html#quickstart).
 
-
+- In the next section we will 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTA5OTU1ODEsLTE5OTU3NzI2MzYsLT
-E1MDM2MDI0MSw0NjM1NDIzNTgsMTQ0NDE0Nzc5NywxNzI5Nzc3
-Mzg3LC0xNzMwMTQ5ODQ1LC0xNjk2MzExNjY3XX0=
+eyJoaXN0b3J5IjpbODMwNTEzNjU0LC0xODEwOTk1NTgxLC0xOT
+k1NzcyNjM2LC0xNTAzNjAyNDEsNDYzNTQyMzU4LDE0NDQxNDc3
+OTcsMTcyOTc3NzM4NywtMTczMDE0OTg0NSwtMTY5NjMxMTY2N1
+19
 -->
