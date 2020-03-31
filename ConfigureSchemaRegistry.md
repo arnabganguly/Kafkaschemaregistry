@@ -4,7 +4,6 @@ The confluent schema registry is located at  ``` /etc/schema-registry/schema-reg
 
 The Schema Register needs to know the Zookeeper service to be able to interact with HDInsight Kafka cluster. Follow the below steps to get the details of the Zookeeper Quorum.
 
- - 
  - Set up password variable. Replace `PASSWORD` with the cluster login password, then enter the command
 
 ```
@@ -125,7 +124,7 @@ Server: Jetty(9.2.24.v20180105)
 
 Click Next 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcyMjc2OTM3LC0xODEwOTk1NTgxLC0xOT
+eyJoaXN0b3J5IjpbNjAwODUzNTA0LC0xODEwOTk1NTgxLC0xOT
 k1NzcyNjM2LC0xNTAzNjAyNDEsNDYzNTQyMzU4LDE0NDQxNDc3
 OTcsMTcyOTc3NzM4NywtMTczMDE0OTg0NSwtMTY5NjMxMTY2N1
 19
