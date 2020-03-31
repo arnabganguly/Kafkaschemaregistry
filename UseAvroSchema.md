@@ -49,7 +49,14 @@ Value
 ``` 
 /usr/bin/kafka-avro-console-producer     --broker-list $KAFKABROKERS     --topic agkafkaschemareg     --property parse.key=true --property key.schema='{"type" : "int", "name" : "id"}'     --property value.schema='{ "type" : "record", "name" : "example_schema", "namespace" : "com.example", "fields" : [ { "name" : "cust_id", "type" : "int", "doc" : "Id of the customer account" }, { "name" : "year", "type" : "int", "doc" : "year of expense" }, { "name" : "expenses", "type" : {"type": "array", "items": "float"}, "doc" : "Expenses for the year" } ], "doc:" : "A basic schema for storing messages" }'
 ```
+
+- When the producer is ready to accept messages start sending the messages in the below format
+```
+1 TAB {"cust_id":1313131, "year":2012, "expenses":[1313.13, 2424.24]}
+2 TAB {"cust_id":3535353, "year":2011, "expenses":[761.35, 92.18, 14.41]}
+3 TAB {"cust_id":7979797, "year":2011, "expenses":[4489.00]}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MTM2Njc2LDcxODQ1MzY4NSw2MDc1Nj
+eyJoaXN0b3J5IjpbNDQ0MjYyOTAyLDcxODQ1MzY4NSw2MDc1Nj
 U5MzBdfQ==
 -->
