@@ -56,12 +56,18 @@ Value
 2 TAB {"cust_id":3535353, "year":2011, "expenses":[761.35, 92.18, 14.41]}
 3 TAB {"cust_id":7979797, "year":2011, "expenses":[4489.00]}
 ```
+- Tey entering randon data to see how the producer does now allow any data that does not conform to predefined AVRO schema and runs into a 
 
 - In a different screen start the Kafka Avro Console Consumer
 
-```sudo /usr/bin/kafka-avro-console-consumer --bootstrap-server $KAFKABROKERS --topic agkafkaschemareg --from-beginning
+```
+sudo /usr/bin/kafka-avro-console-consumer --bootstrap-server $KAFKABROKERS --topic agkafkaschemareg --from-beginning
+```
+
+- You should start seeing the below output
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNzMwNTQ5LDcxODQ1MzY4NSw2MDc1Nj
-U5MzBdfQ==
+eyJoaXN0b3J5IjpbMTMyNzgxNTA2OSw3MTg0NTM2ODUsNjA3NT
+Y1OTMwXX0=
 -->
