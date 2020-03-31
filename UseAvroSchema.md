@@ -50,13 +50,13 @@ Value
 /usr/bin/kafka-avro-console-producer     --broker-list $KAFKABROKERS     --topic agkafkaschemareg     --property parse.key=true --property key.schema='{"type" : "int", "name" : "id"}'     --property value.schema='{ "type" : "record", "name" : "example_schema", "namespace" : "com.example", "fields" : [ { "name" : "cust_id", "type" : "int", "doc" : "Id of the customer account" }, { "name" : "year", "type" : "int", "doc" : "year of expense" }, { "name" : "expenses", "type" : {"type": "array", "items": "float"}, "doc" : "Expenses for the year" } ], "doc:" : "A basic schema for storing messages" }'
 ```
 
-- When the producer is ready to accept messages start sending the messages in the below format
+- When the producer is ready to accept messages start sending the messages in the predefined Avro schema format. Use the Tab key to create spacing between the Key and Value. 
 ```
 1 TAB {"cust_id":1313131, "year":2012, "expenses":[1313.13, 2424.24]}
 2 TAB {"cust_id":3535353, "year":2011, "expenses":[761.35, 92.18, 14.41]}
 3 TAB {"cust_id":7979797, "year":2011, "expenses":[4489.00]}
 ```
-- Tey entering randon data to see how the producer does now allow any data that does not conform to predefined AVRO schema and runs into a 
+- Try entering random non schema data into the console producer to see how the producer does now allow any data that does not conform to predefined Avro schema. 
 
 - In a different screen start the Kafka Avro Console Consumer
 
@@ -68,6 +68,6 @@ sudo /usr/bin/kafka-avro-console-consumer --bootstrap-server $KAFKABROKERS --top
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNzgxNTA2OSw3MTg0NTM2ODUsNjA3NT
-Y1OTMwXX0=
+eyJoaXN0b3J5IjpbLTE1MzM2NzQ4MzMsNzE4NDUzNjg1LDYwNz
+U2NTkzMF19
 -->
