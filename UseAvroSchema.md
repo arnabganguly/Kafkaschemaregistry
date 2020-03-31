@@ -47,6 +47,7 @@ Value
   "doc:": "A basic schema for storing messages"
 } 
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDg2MjkxNzcsNjA3NTY1OTMwXX0=
+eyJoaXN0b3J5IjpbNzE4NDUzNjg1LDYwNzU2NTkzMF19
 -->
