@@ -66,8 +66,13 @@ sudo /usr/bin/kafka-avro-console-consumer --bootstrap-server $KAFKABROKERS --top
 
 - You should start seeing the below output
 
+```
+{"cust_id":1313131,"year":2012,"expenses":[1313.13,2424.24]}
+{"cust_id":7979797,"year":2011,"expenses":[4489.0]}
+{"cust_id":3535353,"year":2011,"expenses":[761.35,92.18,14.41]}
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzM2NzQ4MzMsNzE4NDUzNjg1LDYwNz
+eyJoaXN0b3J5IjpbLTE1MDE1OTEyOTEsNzE4NDUzNjg1LDYwNz
 U2NTkzMF19
 -->
