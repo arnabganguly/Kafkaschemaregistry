@@ -121,9 +121,11 @@ Server: Jetty(9.2.24.v20180105)
 - You may want to try some other [advanced commands listed here](https://docs.confluent.io/1.0/schema-registry/docs/intro.html#quickstart).
 
 - In the next section we will read data from standard input and write it to a Kafka Topic  topic in an  format. We will then read the data from the Kafka Topics using a consumer with an Avro formatter to transform that data into readable format. 
+
+Click Next 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MTAwMDcwNywtMTgxMDk5NTU4MSwtMT
-k5NTc3MjYzNiwtMTUwMzYwMjQxLDQ2MzU0MjM1OCwxNDQ0MTQ3
-Nzk3LDE3Mjk3NzczODcsLTE3MzAxNDk4NDUsLTE2OTYzMTE2Nj
-ddfQ==
+eyJoaXN0b3J5IjpbNjAwODUzNTA0LC0xODEwOTk1NTgxLC0xOT
+k1NzcyNjM2LC0xNTAzNjAyNDEsNDYzNTQyMzU4LDE0NDQxNDc3
+OTcsMTcyOTc3NzM4NywtMTczMDE0OTg0NSwtMTY5NjMxMTY2N1
+19
 -->
