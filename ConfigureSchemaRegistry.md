@@ -122,10 +122,10 @@ Server: Jetty(9.2.24.v20180105)
 
 - In the next section we will read data from standard input and write it to a Kafka Topic  topic in an  format. We will then read the data from the Kafka Topics using a consumer with an Avro formatter to transform that data into readable format. 
 
-Click Next 
+Click [Next](https://github.com/arnabganguly/Kafkaschemaregistry/blob/master/UseAvroSchema.md) 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAwODUzNTA0LC0xODEwOTk1NTgxLC0xOT
-k1NzcyNjM2LC0xNTAzNjAyNDEsNDYzNTQyMzU4LDE0NDQxNDc3
-OTcsMTcyOTc3NzM4NywtMTczMDE0OTg0NSwtMTY5NjMxMTY2N1
-19
+eyJoaXN0b3J5IjpbLTEyODU3NzI5NjgsLTE4MTA5OTU1ODEsLT
+E5OTU3NzI2MzYsLTE1MDM2MDI0MSw0NjM1NDIzNTgsMTQ0NDE0
+Nzc5NywxNzI5Nzc3Mzg3LC0xNzMwMTQ5ODQ1LC0xNjk2MzExNj
+Y3XX0=
 -->
