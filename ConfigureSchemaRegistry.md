@@ -38,6 +38,11 @@ Check to see if the Kafka Broker  information is available
 ```
 echo $KAFKABROKERS
 ```
+- Kafka Broker host information appears in the below format
+```
+wn1-kafka.eahjefyeyyeyeyygqj5y1ud.cx.internal.cloudapp.net:9092,wn0-kafka.eahjefxxp1netdbyklgqj5y1ud.cx.internal.cloudapp.net:9092
+```
+
 
 
 - Open the Schema Registry properties files in edit mode
@@ -135,7 +140,7 @@ Server: Jetty(9.2.24.v20180105)
 
 Click [Next](https://github.com/arnabganguly/Kafkaschemaregistry/blob/master/UseAvroSchema.md) 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzODgzNTgyNCwtMTI4NTc3Mjk2OCwtMT
+eyJoaXN0b3J5IjpbMTQ3MTQ2MzIwOCwtMTI4NTc3Mjk2OCwtMT
 gxMDk5NTU4MSwtMTk5NTc3MjYzNiwtMTUwMzYwMjQxLDQ2MzU0
 MjM1OCwxNDQ0MTQ3Nzk3LDE3Mjk3NzczODcsLTE3MzAxNDk4ND
 UsLTE2OTYzMTE2NjddfQ==
