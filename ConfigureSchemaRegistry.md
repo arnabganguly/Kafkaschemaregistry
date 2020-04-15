@@ -28,6 +28,7 @@ echo  $KAFKAZKHOSTS
 ```
 zk1-ag4kaf.q2hwzr1xkxjuvobkaagmjjkhta.gx.internal.cloudapp.net:2181,zk2-ag4kaf.q2hwzr1xkxjuvobkaagmjjkhta.gx.internal.cloudapp.net:2181
 ```
+- Get the 
 
 - Open the Schema Registry properties files in edit mode
 
@@ -124,8 +125,8 @@ Server: Jetty(9.2.24.v20180105)
 
 Click [Next](https://github.com/arnabganguly/Kafkaschemaregistry/blob/master/UseAvroSchema.md) 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODU3NzI5NjgsLTE4MTA5OTU1ODEsLT
-E5OTU3NzI2MzYsLTE1MDM2MDI0MSw0NjM1NDIzNTgsMTQ0NDE0
-Nzc5NywxNzI5Nzc3Mzg3LC0xNzMwMTQ5ODQ1LC0xNjk2MzExNj
-Y3XX0=
+eyJoaXN0b3J5IjpbNjU0NDE1MjI2LC0xMjg1NzcyOTY4LC0xOD
+EwOTk1NTgxLC0xOTk1NzcyNjM2LC0xNTAzNjAyNDEsNDYzNTQy
+MzU4LDE0NDQxNDc3OTcsMTcyOTc3NzM4NywtMTczMDE0OTg0NS
+wtMTY5NjMxMTY2N119
 -->
