@@ -6,7 +6,7 @@
 /usr/hdp/current/kafka-broker/bin/kafka-topics.sh --create --replication-factor 3 --partitions 8 --topic agkafkaschemareg --zookeeper $KAFKAZKHOSTS
 ```
 
-- Use the **Kafka Avro Console Producer** to create a schema , assign the schema to the Topic and start sending data to the topic in Avro format. 
+- Use the **Kafka Avro Console Producer** to create a schema , assign the schema to the Topic and start sending data to the topic in Avro format. Ensure that the Kafka Topic in the previous step is successfully created and that **$KAFKABROKERS** has a value in it. 
 
 - The schema we are sending is a Key: Value Pair
 ```
@@ -104,6 +104,6 @@ sudo /usr/bin/kafka-avro-console-consumer --bootstrap-server $KAFKABROKERS --top
 ```
 ![HDInsight Kafka Schema Registry](https://github.com/arnabganguly/Kafkaschemaregistry/blob/master/images/Pic8.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0Mjc4OTQzNywxODc4MTIxMzk2LDcxOD
-Q1MzY4NSw2MDc1NjU5MzBdfQ==
+eyJoaXN0b3J5IjpbLTE5NTQ5MDY4NTQsMTg3ODEyMTM5Niw3MT
+g0NTM2ODUsNjA3NTY1OTMwXX0=
 -->
