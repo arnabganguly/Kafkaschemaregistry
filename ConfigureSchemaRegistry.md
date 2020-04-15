@@ -34,9 +34,11 @@ zk1-ag4kaf.q2hwzr1xkxjuvobkaagmjjkhta.gx.internal.cloudapp.net:2181,zk2-ag4kaf.q
 export KAFKABROKERS=$(curl -sS -u admin:$password -G https://$clusterName.azurehdinsight.net/api/v1/clusters/$clusterName/services/KAFKA/components/KAFKA_BROKER | jq -r '["\(.host_components[].HostRoles.host_name):9092"] | join(",")' | cut -d',' -f1,2);
 ```
 
-Check to see if the Broker host information is availabe
+Check to see if the Kafka Broker  information is available
 ```
-ecch
+echo $KAFKABROKERS
+```
+
 
 - Open the Schema Registry properties files in edit mode
 
@@ -133,8 +135,8 @@ Server: Jetty(9.2.24.v20180105)
 
 Click [Next](https://github.com/arnabganguly/Kafkaschemaregistry/blob/master/UseAvroSchema.md) 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzA4MDc3NjAsLTEyODU3NzI5NjgsLT
-E4MTA5OTU1ODEsLTE5OTU3NzI2MzYsLTE1MDM2MDI0MSw0NjM1
-NDIzNTgsMTQ0NDE0Nzc5NywxNzI5Nzc3Mzg3LC0xNzMwMTQ5OD
-Q1LC0xNjk2MzExNjY3XX0=
+eyJoaXN0b3J5IjpbMTkzODgzNTgyNCwtMTI4NTc3Mjk2OCwtMT
+gxMDk5NTU4MSwtMTk5NTc3MjYzNiwtMTUwMzYwMjQxLDQ2MzU0
+MjM1OCwxNDQ0MTQ3Nzk3LDE3Mjk3NzczODcsLTE3MzAxNDk4ND
+UsLTE2OTYzMTE2NjddfQ==
 -->
